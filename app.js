@@ -8,12 +8,13 @@ function countDate(){
     if(isNaN(givenDateParse.getTime()) || givenDateParse > today){
         const elementToShow = document.getElementById('noticeColor');
         elementToShow.style.display = 'block';
-        return;
+      
     
     }
     else{
         
-
+        const elementToShow = document.getElementById('noticeColor');
+        elementToShow.style.display = '';
         const difference = Math.abs(today - givenDateParse) / 1000; 
 
         const days = Math.floor(difference / (3600 * 24));
