@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: #b148d2;
+  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.main {
+
+    height: 80vh;
+    width: 60vw;
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 40px;
+   
+ 
+
+}
+
+.date-counter {
+
+    display: flex; 
+    flex-direction: column; 
+    padding: 20px;
+    justify-content: space-between; 
+    height: 100%;
+    align-items: center;
+}
+
+.date{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 40vw;
+    border-color: white;
+}
+
+#noticeColor{
+    display: none;
+   
+}
+
+
+.calculateButton{
+    background-color: #b148d2;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.calculateButton:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
