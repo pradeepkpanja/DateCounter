@@ -34,5 +34,10 @@ function startCounting(){
     intervalid = setInterval(countDate, 1000);
 }
 
+function stopCounting(){    
+    clearInterval(intervalid);
+}
+
 
 document.querySelector('.calculateButton').addEventListener('click',startCounting);
+document.querySelector('.stop').addEventListener('click',stopCounting);

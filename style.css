@@ -61,6 +61,19 @@ body {
     margin-left: 10px;
 }
 
+.stop{
+    background-color: rgb(32, 135, 170);
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.stop:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
 .calculateButton:hover{
     color: white;
     background-color: black;
